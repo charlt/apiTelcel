@@ -1,0 +1,31 @@
+{
+    "name": "apitelcel",
+    "version": "1.0.0",
+    "description": "API para examen de TELCEL",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charlt/apiTelcel.git"
+    },
+    "author": "Charly Bernabe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/charlt/apiTelcel/issues"
+    },
+    "homepage": "https://github.com/charlt/apiTelcel#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "csv-parse": "^4.15.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "get-stream": "^6.0.0",
+        "mongoose": "^5.11.14",
+        "mongoose-deep-populate": "^3.2.0",
+        "nodemon": "^2.0.7"
+    }
+}
