@@ -17,7 +17,7 @@ function connnectToMongo() {
         });
 }
 connnectToMongo();
-let allowedOrigins = ['http://localhost:4200', 'http://localhost'];
+let allowedOrigins = ['http://localhost:4200', 'http://localhost', 'https://examentelecel.000webhostapp.com/'];
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 let routes = require('./api/gral/infraestructura/servidor/rutas/radiobases');
 app.use('/api', routes);
