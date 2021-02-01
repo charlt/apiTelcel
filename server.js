@@ -17,7 +17,7 @@ function connnectToMongo() {
         });
 }
 connnectToMongo();
-let allowedOrigins = ['http://localhost:4200'];
+let allowedOrigins = ['http://localhost:4200', 'http://localhost'];
 app.use(cors({ origin: allowedOrigins, credentials: true }));
 let routes = require('./api/gral/infraestructura/servidor/rutas/radiobases');
 app.use('/api', routes);

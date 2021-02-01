@@ -59,10 +59,9 @@ class SourceRepositoryMongo {
                 let query = [{
                     $group: {
                         _id: '$radiobase',
-
                     }
                 }]
-                cliente.Radiobase.find(query).exec()
+                cliente.Radiobase.aggregate(query).exec()
                     .then(radiobases => {
                         resolve(radiobases)
                     }).catch(err => { reject(err) })
