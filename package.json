@@ -11,6 +11,9 @@
         "type": "git",
         "url": "git+https://github.com/charlt/apiTelcel.git"
     },
+    "engine": {
+        "node": "12.x"
+    },
     "author": "Charly Bernabe",
     "license": "ISC",
     "bugs": {
